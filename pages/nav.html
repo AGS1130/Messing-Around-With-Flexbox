@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Messing Around With Flexbox</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <style>
+        .p-1 {
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+
+        .p-2 {
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .p-3 {
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+
+        .p-4 {
+            padding: 2.5rem;
+            margin: 2.5rem 0;
+        }
+
+        .p-5 {
+            padding: 3rem;
+            margin: 3rem 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bs-example bs-navbar-top-example" data-example-id="navbar-static-top">
+        <nav class="navbar navbar-default navbar-static-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-8" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Food, LLC</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-8">
+                    <ul class="nav navbar-nav text-center hidden-xl hidden-lg hidden-md hidden-sm">
+                        <li><a href="#item1">Sushi</a></li>
+                        <li><a href="#item2">Chicken</a></li>
+                        <li><a href="#item3">Beef</a></li>
+                        <li><a href="#item4">Pork</a></li>
+                        <li><a href="#item5">Chow Mein</a></li>
+                        <li><a href="#item6">Stir Fry</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <header class="text-center">
+        <h1>Our Menu</h1>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div id="item1" class="col-xs-12">
+                <div class="p-3 bg-danger">
+                    <h3 class="text-center">Sushi</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci nam eius ea eum
+                        provident quo? Adipisci, totam! Pariatur necessitatibus sint dicta, tempore accusantium modi
+                        minima
+                        ipsam laborum sequi asperiores.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci nam eius ea eum
+                        provident quo? Adipisci, totam! Pariatur necessitatibus sint dicta, tempore accusantium modi
+                        minima
+                        ipsam laborum sequi asperiores.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci nam eius ea eum
+                        provident quo? Adipisci, totam! Pariatur necessitatibus sint dicta, tempore accusantium modi
+                        minima
+                        ipsam laborum sequi asperiores.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci nam eius ea eum
+                        provident quo? Adipisci, totam! Pariatur necessitatibus sint dicta, tempore accusantium modi
+                        minima
+                        ipsam laborum sequi asperiores.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci nam eius ea eum
+                        provident quo? Adipisci, totam! Pariatur necessitatibus sint dicta, tempore accusantium modi
+                        minima
+                        ipsam laborum sequi asperiores.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci nam eius ea eum
+                        provident quo? Adipisci, totam! Pariatur necessitatibus sint dicta, tempore accusantium modi
+                        minima
+                        ipsam laborum sequi asperiores.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci nam eius ea eum
+                        provident quo? Adipisci, totam! Pariatur necessitatibus sint dicta, tempore accusantium modi
+                        minima
+                        ipsam laborum sequi asperiores.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci nam eius ea eum
+                        provident quo? Adipisci, totam! Pariatur necessitatibus sint dicta, tempore accusantium modi
+                        minima
+                        ipsam laborum sequi asperiores.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci nam eius ea eum
+                        provident quo? Adipisci, totam! Pariatur necessitatibus sint dicta, tempore accusantium modi
+                        minima
+                        ipsam laborum sequi asperiores.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci nam eius ea eum
+                        provident quo? Adipisci, totam! Pariatur necessitatibus sint dicta, tempore accusantium modi
+                        minima
+                        ipsam laborum sequi asperiores.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci nam eius ea eum
+                        provident quo? Adipisci, totam! Pariatur necessitatibus sint dicta, tempore accusantium modi
+                        minima
+                        ipsam laborum sequi asperiores.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci nam eius ea eum
+                        provident quo? Adipisci, totam! Pariatur necessitatibus sint dicta, tempore accusantium modi
+                        minima
+                        ipsam laborum sequi asperiores.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci nam eius ea eum
+                        provident quo? Adipisci, totam! Pariatur necessitatibus sint dicta, tempore accusantium modi
+                        minima
+                        ipsam laborum sequi asperiores.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci nam eius ea eum
+                        provident quo? Adipisci, totam! Pariatur necessitatibus sint dicta, tempore accusantium modi
+                        minima
+                        ipsam laborum sequi asperiores.
+                    </p>
+                </div>
+            </div>
+            <div id="item2" class="col-sm-6 col-xs-12">
+                <div class="p-3 bg-info">
+                    <h3 class="text-center">Chicken</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci nam eius ea eum
+                        provident quo? Adipisci, totam! Pariatur necessitatibus sint dicta, tempore accusantium modi
+                        minima
+                        ipsam laborum sequi asperiores.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci nam eius ea eum
+                        provident quo? Adipisci, totam! Pariatur necessitatibus sint dicta, tempore accusantium modi
+                        minima
+                        ipsam laborum sequi asperiores.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci nam eius ea eum
+                        provident quo? Adipisci, totam! Pariatur necessitatibus sint dicta, tempore accusantium modi
+                        minima
+                        ipsam laborum sequi asperiores.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci nam eius ea eum
+                        provident quo? Adipisci, totam! Pariatur necessitatibus sint dicta, tempore accusantium modi
+                        minima
+                        ipsam laborum sequi asperiores.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci nam eius ea eum
+                        provident quo? Adipisci, totam! Pariatur necessitatibus sint dicta, tempore accusantium modi
+                        minima
+                        ipsam laborum sequi asperiores.
+                    </p>
+                </div>
+            </div>
+            <div id="item3" class="col-sm-6 col-xs-12">
+                <div class="p-3 bg-info">
+                    <h3 class="text-center">Beef</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci nam eius ea eum
+                        provident quo? Adipisci, totam! Pariatur necessitatibus sint dicta, tempore accusantium modi
+                        minima
+                        ipsam laborum sequi asperiores.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci nam eius ea eum
+                        provident quo? Adipisci, totam! Pariatur necessitatibus sint dicta, tempore accusantium modi
+                        minima
+                        ipsam laborum sequi asperiores.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci nam eius ea eum
+                        provident quo? Adipisci, totam! Pariatur necessitatibus sint dicta, tempore accusantium modi
+                        minima
+                        ipsam laborum sequi asperiores.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci nam eius ea eum
+                        provident quo? Adipisci, totam! Pariatur necessitatibus sint dicta, tempore accusantium modi
+                        minima
+                        ipsam laborum sequi asperiores.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci nam eius ea eum
+                        provident quo? Adipisci, totam! Pariatur necessitatibus sint dicta, tempore accusantium modi
+                        minima
+                        ipsam laborum sequi asperiores.
+                    </p>
+                </div>
+            </div>
+            <div id="item4" class="col-md-4 col-sm-6 col-xs-12">
+                <div class="p-3 bg-success">
+                    <h3 class="text-center">Pork</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci nam eius ea eum
+                        provident quo? Adipisci, totam! Pariatur necessitatibus sint dicta, tempore accusantium modi
+                        minima
+                        ipsam laborum sequi asperiores.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci nam eius ea eum
+                        provident quo? Adipisci, totam! Pariatur necessitatibus sint dicta, tempore accusantium modi
+                        minima
+                        ipsam laborum sequi asperiores.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci nam eius ea eum
+                        provident quo? Adipisci, totam! Pariatur necessitatibus sint dicta, tempore accusantium modi
+                        minima
+                        ipsam laborum sequi asperiores.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci nam eius ea eum
+                        provident quo? Adipisci, totam! Pariatur necessitatibus sint dicta, tempore accusantium modi
+                        minima
+                        ipsam laborum sequi asperiores.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci nam eius ea eum
+                        provident quo? Adipisci, totam! Pariatur necessitatibus sint dicta, tempore accusantium modi
+                        minima
+                        ipsam laborum sequi asperiores.
+                        <a href="#">Back to top</a>
+                    </p>
+                </div>
+            </div>
+            <div id="item5" class="col-md-4 col-sm-6 col-xs-12">
+                <div class="p-3 bg-success">
+                    <h3 class="text-center">Chow Mein</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci nam eius ea eum
+                        provident quo? Adipisci, totam! Pariatur necessitatibus sint dicta, tempore accusantium modi
+                        minima
+                        ipsam laborum sequi asperiores.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci nam eius ea eum
+                        provident quo? Adipisci, totam! Pariatur necessitatibus sint dicta, tempore accusantium modi
+                        minima
+                        ipsam laborum sequi asperiores.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci nam eius ea eum
+                        provident quo? Adipisci, totam! Pariatur necessitatibus sint dicta, tempore accusantium modi
+                        minima
+                        ipsam laborum sequi asperiores.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci nam eius ea eum
+                        provident quo? Adipisci, totam! Pariatur necessitatibus sint dicta, tempore accusantium modi
+                        minima
+                        ipsam laborum sequi asperiores.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci nam eius ea eum
+                        provident quo? Adipisci, totam! Pariatur necessitatibus sint dicta, tempore accusantium modi
+                        minima
+                        ipsam laborum sequi asperiores.
+                        <a href="#">Back to top</a>
+                    </p>
+                </div>
+            </div>
+            <div id="item6" class="col-md-4 col-xs-12">
+                <div class="p-3 bg-success">
+                    <h3 class="text-center">Stir Fry</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci nam eius ea eum
+                        provident quo? Adipisci, totam! Pariatur necessitatibus sint dicta, tempore accusantium modi
+                        minima
+                        ipsam laborum sequi asperiores.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci nam eius ea eum
+                        provident quo? Adipisci, totam! Pariatur necessitatibus sint dicta, tempore accusantium modi
+                        minima
+                        ipsam laborum sequi asperiores.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci nam eius ea eum
+                        provident quo? Adipisci, totam! Pariatur necessitatibus sint dicta, tempore accusantium modi
+                        minima
+                        ipsam laborum sequi asperiores.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci nam eius ea eum
+                        provident quo? Adipisci, totam! Pariatur necessitatibus sint dicta, tempore accusantium modi
+                        minima
+                        ipsam laborum sequi asperiores.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium adipisci nam eius ea eum
+                        provident quo? Adipisci, totam! Pariatur necessitatibus sint dicta, tempore accusantium modi
+                        minima
+                        ipsam laborum sequi asperiores.
+                        <a href="#">Back to top</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+        crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
